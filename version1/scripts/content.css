@@ -1,0 +1,71 @@
+button#btnQurious{
+    position: fixed;
+    bottom: 120px;
+    right: 20px;
+    z-index: 1000;
+
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 0, 0);
+
+    border: 2px solid gainsboro;
+    border-radius: 20px;
+
+    animation-name: stretch;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+#btnQurious:hover{
+    transform: scale(0.7);
+    background-color: rgb(143, 7, 7);
+    border-color: rgb(244, 201, 236);
+    animation-name: none;
+    cursor: pointer;
+}
+
+#btnQurious[listening] {
+    animation-name: fast-stretch;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@keyframes stretch {
+    0% {
+        background-color: rgb(255, 0, 0);
+        border-color: gainsboro;
+        transform: scale(1);
+    }
+    
+    90% {
+        background-color: rgba(255, 0, 0, 0.807);
+        border-color: gainsboro;
+        transform: scale(1);
+    }
+    
+    100%{
+        background-color: rgba(255, 2, 2, 0.632);
+        border-color: rgba(238, 132, 132, 0.995);
+        transform: scale(1.5);
+    }
+}
+
+@keyframes fast-stretch {
+    0% {
+        background-color: rgb(255, 0, 0);;
+        border-color: gainsboro;
+        transform: scale(1);
+    }
+    
+    100% {
+        background-color: rgba(255, 2, 2, 0.632);
+        border-color: rgba(238, 132, 132, 0.995);
+        transform: scale(1.2);
+    }
+}

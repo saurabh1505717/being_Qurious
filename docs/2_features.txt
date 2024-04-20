@@ -1,0 +1,30 @@
+Should be available on all websites
+Should be invoked via button, keyboard shortcut, or voice command.
+Should take input via a voice command or text to know what to do.
+Should be able to handle non-precise input smartly
+Should be able to give the list of places, people, companies in the current web page
+ 
+List of people: should be able to give me the following for the list of people
+    A brief
+    images
+    latest news
+    likedin, twitter and insta handles: should be able to follow them without leaving page
+    wikipedia
+    google search
+List of places: should be able to give me the following for the list of places
+    A brief
+    images
+    latest news
+    wikipedia
+    google search
+List of companies: should be able to give me the following for the list of companies.
+    A brief
+    key personnel(business leaders)
+    investors
+    website
+    images
+    latest news
+    wikipedia
+    google search
+Access chatgpt, bing, bard, google, maps, wikipedia, from oage itself.
+Create and download images using AI while staying on the page.

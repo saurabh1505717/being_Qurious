@@ -1,0 +1,9 @@
+Assumption => You know basic coding in any language.
+
+Learn in absorbing state of mind in any language
+    HTML = W3schools (4 hours)
+    CSS = W3schools (8 hours)
+    JS = W3schools (12 hours)
+
+Chrome extension (Always prefer official resources)
+    https://developer.chrome.com/docs/extensions/mv3/getstarted/ = (4 hours)
